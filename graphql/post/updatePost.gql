@@ -1,0 +1,9 @@
+mutation UpdatePost($input: UpdatePostDto!) {
+  updatePost(input: $input) {
+    id
+    createdAt
+    updatedAt
+    categoryId
+    contents
+  }
+}

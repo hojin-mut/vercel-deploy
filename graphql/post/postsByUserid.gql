@@ -1,0 +1,9 @@
+query postsByUserId {
+  postsByUserId {
+    id
+    createdAt
+    updatedAt
+    categoryId
+    contents
+  }
+}

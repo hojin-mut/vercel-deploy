@@ -1,0 +1,20 @@
+.html-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: calc(100vh - 40px);
+  background-color: var(--background-color);
+}
+
+.body-container {
+  width: 100%;
+  max-width: 512px;
+  font-family: Mulish;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  margin: 0 auto;
+}

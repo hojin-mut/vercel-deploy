@@ -1,0 +1,3 @@
+mutation RemovePost($postId: Float!) {
+  removePost(postId: $postId)
+}

@@ -1,0 +1,8 @@
+query categories {
+  categories {
+    id
+    type
+    parentId
+    name
+  }
+}

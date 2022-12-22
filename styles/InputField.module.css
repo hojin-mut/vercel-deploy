@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+}
+.input-div {
+  position: relative;
+  width: 85%;
+  margin: 0px auto;
+}
+.input-field {
+  width: 100%;
+  padding-left: 12px;
+  box-sizing: border-box;
+  height: 48px;
+  border: 1px solid #e3e5eb;
+  outline: none;
+  border-radius: 8px;
+  /* font-size: 16px; */
+}
+.label {
+  position: absolute;
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  transition: all 0.1s linear;
+  bottom: 16px;
+  transform: scale(1);
+  left: 12px;
+  color: #a5a9b1;
+  pointer-events: none;
+}
+
+.input-field:focus {
+  border: 1px solid #515151;
+}
+.input-field:focus + label,
+.input-field:not(:placeholder-shown) + label {
+  background-color: white;
+  line-height: 19px;
+  transform: scale(0.75);
+  font-size: 12px;
+  transform: translateY(-22px);
+  color: #0b0b0b;
+  height: 19px;
+}
+
+.input-field::placeholder {
+  color: transparent;
+}
+
+.show-password {
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.input-valid-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.description {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  color: #d10000;
+}

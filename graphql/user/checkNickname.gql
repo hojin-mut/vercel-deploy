@@ -1,0 +1,3 @@
+query CheckNickname($input: String!) {
+  isNotExistName(input: $input)
+}

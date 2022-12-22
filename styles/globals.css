@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #b00db3;
+  --background-color: #ffffff;
+  --font-color: #000000;
+}
+
+#__next .ql-container {
+  background: #fefcfc;
+  color: black;
+}
+
+/* Snow Theme */
+#__next .ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+}
+
+#__next .ql-editor {
+  height: 30em;
+}
+
+.themeSwitcher {
+  margin-top: 0.5em;
+  font-size: small;
+}

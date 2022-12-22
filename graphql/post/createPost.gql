@@ -1,0 +1,9 @@
+mutation CreatePost($input: CreatePostDto!) {
+  createPost(input: $input) {
+    id
+    createdAt
+    updatedAt
+    categoryId
+    contents
+  }
+}
